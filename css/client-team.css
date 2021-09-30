@@ -1,0 +1,121 @@
+.welcome-text{
+    position: absolute;
+    z-index: 100;
+    top: 30% !important;
+    left: 48%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.team h1, .our-client{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Cursive;
+    padding-top: 40px;
+    color: rgb(0, 126, 209);
+}
+h3{
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+.row1{
+    background: #f2f2f2;
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col1{
+    flex-basis: 25%;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+.col1 img{
+    width: 80%;
+    cursor: pointer;
+    transition: 2s;
+}
+.col1 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    /* padding: 10px; */
+}
+.post{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.col1:hover img{
+    transform: scale(1.1);
+}
+.client p{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 126, 209);
+}
+.client-logo{
+  text-align: center;
+}
+.client-logo img{
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+}
+@media screen  and (max-width: 770px){
+    .row1{
+        width: 95%;
+    }
+    .col1{
+        flex-basis: 75%;
+        font-size: 14px;
+        margin: auto;
+    }
+    h3{
+        font-size: 20px;   
+    }
+    .row1 .col1:nth-child(1){
+        order: 1;
+    }
+    .row1 .col1:nth-child(2){
+        order: 2;
+    }
+    .row1 .col1:nth-child(3){
+        order: 3;
+    }
+    .row1 .col1:nth-child(4){
+        order: 4;
+    }
+    .row1 .col1:nth-child(5){
+        order: 6;
+    }
+    .row1 .col1:nth-child(6){
+        order: 5;
+    }
+    .row1 .col1:nth-child(7){
+        order: 7;
+    }
+    .row1 .col1:nth-child(8){
+        order: 8;
+    }
+    .row1 .col1:nth-child(9){
+        order: 9;
+    }
+    .row1 .col1:nth-child(10){
+        order: 10;
+    }
+    .row1 .col1:nth-child(11){
+        order: 11;
+    }
+    .row1 .col1:nth-child(12){
+        order: 12;
+    }
+}
+
+
+
