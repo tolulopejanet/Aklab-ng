@@ -106,6 +106,20 @@ a.active{
     background-color: rgba(117, 103, 103, 0.322);;
     color: #fff;
 }
+.nav2{
+    background-color: rgba(0,0,0,0.5);
+    height: 350px;
+    width: 250px;
+    margin-top: -34%;
+}
+.anchor1{
+    color: #fff;
+    font-size: 20px;
+}
+.side-text{
+    margin: 10px;
+    align-items: center;
+}
 
 /* applied to javascript */
 .show {
