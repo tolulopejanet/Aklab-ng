@@ -143,8 +143,12 @@ em{
     margin-top: 1.3em;
 }
 .logo img{
-    width: 190px;
-    height: 105px;
+    height: 75px;
+    width: 130px;
+    opacity: 1;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1em;
 }
 .nav2{
   margin-top: 160px;

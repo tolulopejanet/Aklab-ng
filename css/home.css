@@ -387,7 +387,7 @@ footer{
     color: #b9b7b7;
     padding: 70px 0;
 }
-@media all and (min-width: 100px) and (max-width:850px){
+@media all and (min-width: 50px) and (max-width:850px){
     .nav .anchor{
        display: none;
     }
@@ -406,17 +406,18 @@ footer{
         margin-top: 1em;
     }
     .logo img{
-        height: 95px;
+        height: 75px;
+        width: 130px;
         opacity: 1;
         background-color: white;
         border-radius: 30px;
         padding: 1em;
     }
     .nav2{
-        background-color: rgba(0,0,0,0.2);
+        /* background-color: rgba(0,0,0,0.2); */
         width: 300px;
         height: 250px;
-        margin-top: 140px;
+        margin-top: 170px;
         border-radius: 50px;
         margin-left: auto;
         margin-right: auto;
@@ -424,7 +425,7 @@ footer{
         
     }
     .link{
-       margin: 30px !important;
+       margin: 20px !important;
     }
     .link a{
         color: #fff !important;
@@ -438,8 +439,8 @@ footer{
     }
     .toggler{
         display: block;
-        margin-top: 70px;
-        margin-right: -200px;
+        margin-top: 90px;
+        margin-left: -20px;
         cursor: pointer;
     }
     .bar1{
@@ -478,21 +479,29 @@ footer{
     .roww{
         display: block;
         justify-content: center;
+        margin: auto;
     }
     .coll{
         flex-basis: 100%;
         min-width: 250px;
+        
     }
      .box1{
-        width: 90%;
+        width: 80%;
         border-radius: 10px;
-        height: 15em;
+        height: 22em;
         margin-bottom: 50px;
       
     }
-    .services,.services2{
+    .services{
         width: 100%;
         height: 70vh;
+        position: relative;
+        display: block;
+    }
+    .services2{
+        width: 100%;
+        height: 110vh;
         position: relative;
         display: block;
     }
@@ -506,12 +515,19 @@ footer{
         padding-top: 40px;
         text-align: center;
     }
+    .details1 h1{
+        font-size: 10px;
+    }
     .detail1 p{
         line-height: 70px;
     }
     .services2{
         margin-top: 300px;
-        margin-bottom: 40px;
+        /* margin-bottom: 0px; */
+        
+    }
+    .services2 .details1{
+       line-height: 100px;
     }
     
     .services2 img{
