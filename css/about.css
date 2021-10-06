@@ -157,26 +157,53 @@ em{
   z-index: 50;
   left: 50%;
 }
+form{
+  /* padding-top: 40px;
+  margin:auto;
+  margin-bottom: 15px; */
+  max-width:200px;
+}
 .about-us{
-  font-size: 35px;
+  width: 300px;
+  margin: auto;
+  font-size: 30px;
 } 
+.aboutUs{
+  padding-bottom: 20px;
+}
+.boxes{
+  width: 100%;
+  display: block;
+  margin: auto;   
+}
 .box1{
-  width: 60%;
+  width: 70%;
+  height: 200px;
   margin: auto;
   margin-bottom: 50px;
+}
+em{
+  line-height: 40px;
+}
+.paragraph{
+  line-height: 60px;
 }
 .story{
   display: block;
   width: 100%;
-  margin-bottom: 200px;
+  margin-bottom: 350px;
+  
 }
 .big{
-  margin-bottom: -70px ;
+  margin-bottom: -190px ;
+  width: 100%;
 }
 #text{
   margin-top: 0;
+  text-align: center;
+  margin: auto;
 }
 .last-img{
-  width: 450px;
+  width: 250px;
 }
 }

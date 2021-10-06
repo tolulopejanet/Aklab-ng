@@ -79,6 +79,17 @@ h3{
     h3{
         font-size: 20px;   
     }
+    .team h1{
+        font-size: 20px;
+    }
+    .client .our-client{
+        font-size: 30px;
+    }
+    .client p{
+        font-size: 20px;
+        padding-top: 10px;
+        line-height: 35px;
+    }
     .row1 .col1:nth-child(1){
         order: 1;
     }

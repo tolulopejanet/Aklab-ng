@@ -489,19 +489,19 @@ footer{
      .box1{
         width: 80%;
         border-radius: 10px;
-        height: 22em;
+        height: 30em;
         margin-bottom: 50px;
       
     }
     .services{
         width: 100%;
-        height: 70vh;
+        height: 140vh;
         position: relative;
         display: block;
     }
     .services2{
         width: 100%;
-        height: 110vh;
+        height: 140vh;
         position: relative;
         display: block;
     }
