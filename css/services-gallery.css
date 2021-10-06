@@ -1,3 +1,11 @@
+.about-us{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(248, 244, 244, 0.932);
+    font-size: 55px;
+    font-weight: bolder;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+  } 
 .image-gallery{
     width: 80%;
     margin: 20px auto 50px;
@@ -115,7 +123,7 @@
     .min:hover .shadow-one{
         transform: translateY(-25px);
     }
-    @media (min-width: 250px) and (max-width:850px){
+    @media (min-width: 100px) and (max-width:850px){
         .image-gallery img{
             height: 250px;
         }
@@ -133,6 +141,13 @@
         .row .row-2{
             display: none;
         }
+        .about-us{
+            font-size: 35px;
+          } 
+        .link{
+            margin: 25px !important;
+         }
       }
+      
 
 
